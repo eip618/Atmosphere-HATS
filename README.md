@@ -2,6 +2,16 @@
 ![Banner](img/banner.png?raw=true)
 =====
 
+### Support __My__ Work
+
+If you find __my__ project useful, please consider supporting me by buying me a coffee! I work tirelessly on Atmosphere to bring YOU such useful changes as:
+- 2 label changes
+- ???
+
+<a href="https://www.buymeacoffee.com/sthetixofficial" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" >
+</a>
+
 ![License](https://img.shields.io/badge/License-GPLv2-blue.svg)
 [![Chat on Discord](https://img.shields.io/badge/Discord-5865f2?logo=discord&logoColor=white)](https://discordapp.com/invite/ZdqEhed)
 ![Made with Notepad++](img/np++.png?raw=true)
