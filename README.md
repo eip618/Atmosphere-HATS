@@ -6,6 +6,10 @@
 [![Chat on Discord](https://img.shields.io/badge/Discord-5865f2?logo=discord&logoColor=white)](https://discordapp.com/invite/ZdqEhed)
 ![Made with Notepad++](img/np++.png?raw=true)
 
+Atmosphere-HATS is an unofficial fork of Atmosphère. It is not the official Atmosphère repository and is not affiliated with or endorsed by the upstream Atmosphère project.
+
+This fork currently carries small UX-focused changes, including changing the System Settings eMMC indicator from the upstream `S` / `E` labels to clearer `SYS` / `EMU` labels.
+
 Atmosphère is a work-in-progress customized firmware for the Nintendo Switch.
 
 Components

@@ -28,7 +28,7 @@ set_mitm enables intercepting requests to the system settings service. It curren
 ### Firmware Version
 set_mitm intercepts the `GetFirmwareVersion` command, if the requester is `qlaunch` or `maintenance`.
 It modifies the `display_version` field of the returned system version, causing the version to display
-in settings as `#.#.#|AMS #.#.#|?` with `? = S` when running under system eMMC or `? = E` when running under emulated eMMC. This allows users to easily verify what version of Atmosphère and what eMMC environment they are running.
+in settings as `#.#.#|AMS #.#.#|?` with `? = SYS` when running under system eMMC or `? = EMU` when running under emulated eMMC. This allows users to easily verify what version of Atmosphère and what eMMC environment they are running.
 
 ### System Settings
 set_mitm intercepts the `GetSettingsItemValueSize` and `GetSettingsItemValue` commands for all requesters.

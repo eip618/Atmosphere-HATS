@@ -288,7 +288,7 @@ namespace ams::fatal::srv {
                                    "to reboot to a payload (or RCM, if none is present). If you are unable to\n"
                                    "restart the console, hold the POWER Button for 12 seconds to turn the console off.\n\n"
                                    "Please ensure that all Atmosphère components are updated.\n"
-                                   "github.com/Atmosphere-NX/Atmosphere/releases\n");
+                                   "github.com/sthetix/Atmosphere-HATS/releases\n");
             }
 
             /* Add a line. */

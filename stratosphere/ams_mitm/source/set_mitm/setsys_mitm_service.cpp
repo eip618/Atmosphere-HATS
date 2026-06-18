@@ -61,13 +61,13 @@ namespace ams::mitm::settings {
             /* Modify the atmosphere firmware version to display a custom version string. */
             {
                 const auto api_info = exosphere::GetApiInfo();
-                const char emummc_char = emummc::IsActive() ? 'E' : 'S';
+                const char *emummc_str = emummc::IsActive() ? "EMU" : "SYS";
 
                 /* NOTE: We have carefully accounted for the size of the string we print. */
                 /* No truncation occurs assuming two-digits for all version number components. */
                 char display_version[sizeof(g_ams_firmware_version.display_version)];
 
-                util::SNPrintf(display_version, sizeof(display_version), "%s|AMS %u.%u.%u|%c", g_ams_firmware_version.display_version, api_info.GetMajorVersion(), api_info.GetMinorVersion(), api_info.GetMicroVersion(), emummc_char);
+                util::SNPrintf(display_version, sizeof(display_version), "%s|AMS %u.%u.%u|%s", g_ams_firmware_version.display_version, api_info.GetMajorVersion(), api_info.GetMinorVersion(), api_info.GetMicroVersion(), emummc_str);
 
                 std::memcpy(g_ams_firmware_version.display_version, display_version, sizeof(display_version));
             }
