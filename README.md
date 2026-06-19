@@ -46,9 +46,10 @@ Exemptions:
 Credits
 =====
 
-Atmosphère is currently being developed and maintained by __SciresM__, __TuxSH__, __hexkyz__, and __fincs__.<br>
+Atmosphère is currently being developed and maintained by __sthetix__.<br>
 In no particular order, we credit the following for their invaluable contributions:
 
+* __sthetix__ for his groundbreaking UX/UI changes
 * __switchbrew__ for the [libnx](https://github.com/switchbrew/libnx) project and the extensive [documentation, research and tool development](http://switchbrew.org) pertaining to the Nintendo Switch.
 * __devkitPro__ for the [devkitA64](https://devkitpro.org/) toolchain and libnx support.
 * __ReSwitched Team__ for additional [documentation, research and tool development](https://reswitched.github.io/) pertaining to the Nintendo Switch.
